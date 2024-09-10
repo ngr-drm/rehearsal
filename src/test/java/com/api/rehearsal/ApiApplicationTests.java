@@ -1,4 +1,4 @@
-package com.rehearsal.api;
+package com.api.rehearsal;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

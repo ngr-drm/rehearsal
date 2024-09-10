@@ -1,4 +1,4 @@
-package com.rehearsal.api.domain.event;
+package com.api.rehearsal.domain.event;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -16,8 +16,8 @@ import java.util.UUID;
 @Entity
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Event {
     @Id
     @GeneratedValue
@@ -27,6 +27,9 @@ public class Event {
     private String description;
     private String imgUrl;
     private String eventUrl;
+    private String city;
+    private String state;
     private Boolean remote;
     private Date date;
+
 }

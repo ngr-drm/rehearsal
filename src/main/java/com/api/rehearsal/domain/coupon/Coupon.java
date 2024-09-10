@@ -1,6 +1,6 @@
-package com.rehearsal.api.domain.coupon;
+package com.api.rehearsal.domain.coupon;
 
-import com.rehearsal.api.domain.event.Event;
+import com.api.rehearsal.domain.event.Event;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -14,8 +14,8 @@ import java.util.UUID;
 @Entity
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 public class Coupon {
     @Id
     @GeneratedValue
