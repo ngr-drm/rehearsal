@@ -1,4 +1,4 @@
-<h2>REHEARSAL</h2>
+<h3>REHEARSAL</h3>
 
 <h4>Motivation</h4>
 
